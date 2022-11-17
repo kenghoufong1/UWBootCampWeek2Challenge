@@ -1,0 +1,61 @@
+* {
+    text-align: center;
+    color:blueviolet;
+    justify-content:center;
+    
+   
+    
+}
+
+header{
+    font-size: 50px;
+    background-color: blue;
+    font-weight: 800;
+    color:red;
+    display:inline;
+    padding-left: 3%;
+    float: left;
+}
+
+.subsection h2{
+    font-size: 40px;
+    color: red;
+    float: left;
+    margin: 5%;
+    display: inline;
+}
+
+nav{
+    display:flex;
+    justify-content: right;
+    background-color:gray;
+    height: 58px;
+    padding-right: 3%;
+   
+}
+
+nav a{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Work {
+    display:flex;
+    padding :10px; 
+    text-align:center;
+    
+}
+
+.Work img{
+    width:100%;
+    min-width:400px;
+    display:flex;
+}
+
+.Background-img img {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
