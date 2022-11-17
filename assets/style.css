@@ -1,10 +1,7 @@
 * {
     text-align: center;
     color:blueviolet;
-    justify-content:center;
-    
-   
-    
+    font-family: Arial;
 }
 
 header{
@@ -14,15 +11,9 @@ header{
     color:red;
     display:inline;
     padding-left: 3%;
+    padding-right: 3%;
     float: left;
-}
-
-.subsection h2{
-    font-size: 40px;
-    color: red;
-    float: left;
-    margin: 5%;
-    display: inline;
+    height: 68px;
 }
 
 nav{
@@ -31,7 +22,8 @@ nav{
     background-color:gray;
     height: 58px;
     padding-right: 3%;
-   
+    padding-top:10px;
+    flex-wrap: wrap;
 }
 
 nav a{
@@ -39,23 +31,116 @@ nav a{
     font-size: 20px;
 }
 
-.Work {
-    display:flex;
-    padding :10px; 
-    text-align:center;
-    
-}
-
-.Work img{
-    width:100%;
-    min-width:400px;
-    display:flex;
-}
-
 .Background-img img {
-    height: 400px;
+    height: 300px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+}
+
+.Work h2,.AboutMe h2{
+    font-size: 40px;
+    color: red;
+    padding-left: 200px;
+    display:flex;
+    border-right-style:solid ;
+    padding-right: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.Work {
+    display:flex;
+    flex-wrap: wrap;
+    height:800px;
+    padding-left: 16px;
+
+}
+
+.AboutMe {
+    height:300px;
+    display:flex;
+}
+
+.AboutMe p{
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+} 
+
+.imagecont{
+    height:880px;
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.imagecont img{
+    border-style: solid;
+    border-color: blue;
+    flex-wrap: wrap;
+}
+
+.WorkPic1{
+    Height:300px;
+    width:100%;
+    margin: 2%;
+}
+
+
+.WorkPic2 , .WorkPic4{
+    Height:200px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    width:700px;
+    margin-left: 30px;
+}
+
+.WorkPic3 {
+    Height:200px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    width:700px;
+    margin-left: 25px;
+}
+
+.WorkPic5{
+    Height:200px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    width:700px;
+    margin-left: 25px;
+}
+
+.ContactMe {
+    margin-top:50px;
+    height:300px;
+    display:flex;
+    
+}
+
+.ContactMe h2{
+    font-size: 40px;
+    color: red;
+    padding-left:99px;
+    display:flex;
+    border-right-style:solid ;
+    padding-right: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.ContactMe a{
+    display: flex;
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 45px;
+    align-items: center;
 }
