@@ -1,9 +1,11 @@
+/* changed every item's font and color by default */
 * {
     text-align: center;
     color:blueviolet;
     font-family: Arial;
 }
 
+/* Change the size color and behaviors of the header */
 header{
     font-size: 50px;
     background-color: blue;
@@ -15,7 +17,7 @@ header{
     float: left;
     height: 68px;
 }
-
+/* change the behavior of the nav bar  */
 nav{
     display:flex;
     justify-content: right;
@@ -25,19 +27,19 @@ nav{
     padding-top:10px;
     flex-wrap: wrap;
 }
-
+/* Change the behavior of the a href link under the nav bar */
 nav a{
     padding: 10px;
     font-size: 20px;
 }
 
+/* Set the big background img with a height width and margin */
 .Background-img img {
     height: 300px;
     width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+    margin-bottom: 25px ;
 }
+/* Change the Work and About me header 2's color and flex prop */
 
 .Work h2,.AboutMe h2{
     font-size: 40px;
@@ -50,7 +52,7 @@ nav a{
     align-content: center;
 }
 
-
+/* Changed Work to a flexbox and changed it's height */
 .Work {
     display:flex;
     flex-wrap: wrap;
@@ -64,6 +66,7 @@ nav a{
     display:flex;
 }
 
+/* Changed the behavior of the p text in about me */
 .AboutMe p{
     font-size: 30px;
     padding: 10px;
@@ -74,20 +77,20 @@ nav a{
     flex-direction: row;
     align-items: center;
 } 
-
+/* gave the imagecontainer in work a flex prop and height width */
 .imagecont{
     height:880px;
     width: 80%;
     display:flex;
     flex-wrap: wrap;
 }
-
+/* Added a diff color border to all of the img in work */
 .imagecont img{
     border-style: solid;
     border-color: blue;
     flex-wrap: wrap;
 }
-
+/* Gave all workpic below a seperae behavior */
 .WorkPic1{
     Height:300px;
     width:100%;
@@ -125,7 +128,7 @@ nav a{
     display:flex;
     
 }
-
+/* Set the behavior of header 2 within contact me */
 .ContactMe h2{
     font-size: 40px;
     color: red;
@@ -143,4 +146,14 @@ nav a{
     margin: 10px;
     margin-left: 45px;
     align-items: center;
+}
+
+h3{
+    position: absolute;
+    right: 10px;
+    top: 190px;
+    border-style: solid;
+    font-size: 50px;
+    color:blue;
+    background-color: black;
 }
